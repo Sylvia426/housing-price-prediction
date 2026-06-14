@@ -62,8 +62,9 @@ parking, main-road access, air conditioning, furnishing status, and price.
 ```
 .
 ├── README.md
-├── housing_price_prediction.Rmd   # R Markdown source (analysis + code)
-└── housing_price_prediction.pdf   # Rendered report (knit output)
+├── housing_price_prediction.Rmd    # R Markdown source (analysis + code)
+├── housing_price_prediction.md     # Rendered report (charts render on GitHub)
+└── housing_price_prediction_files/ # Chart images for the rendered report
 ```
 
 ---
@@ -80,6 +81,13 @@ install.packages(c("ggplot2", "dplyr", "car", "reshape2", "rmarkdown"))
 # 3. Open housing_price_prediction.Rmd in RStudio and click "Knit"
 #    (or run: rmarkdown::render("housing_price_prediction.Rmd"))
 ```
+
+---
+
+## Full Analysis
+
+See the complete analysis with all charts and results in
+[housing_price_prediction.md](housing_price_prediction.md).
 
 ---
 
