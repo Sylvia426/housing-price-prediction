@@ -267,6 +267,7 @@ print(heatmap_plot)
 ```
 
 ![](housing_price_prediction_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+
 Based on the above correlation heatmap, There are stronger links between
 area, bathrooms, and stories, which suggests that these factors have a
 big effect on home prices. Higher property values are probably due to
